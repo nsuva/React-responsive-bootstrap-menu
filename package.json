@@ -1,0 +1,28 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "4.0.0",
+    "font-awesome": "4.7.0",
+    "fullpage-react": "^3.0.30",
+    "jquery": "^3.3.1",
+    "mdbreact": "^4.2.0",
+    "popper": "^1.0.1",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-error-overlay": "4.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-transition": "^1.2.1",
+    "react-scripts": "0.9.5",
+    "reactnav": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "mdbreact": "git+https://github.com/mdbootstrap/React-Bootstrap-with-Material-Design.git"
+  }
+}

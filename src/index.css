@@ -1,0 +1,57 @@
+body {
+  background-color: #e7e6e4;
+  padding: 20px;
+  margin: 0;
+  font-family: Ubuntu,sans-serif;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+.header{
+  margin-top: 40px;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #272D63;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+#active {
+  background-color: #FFAD05;
+}
+.navbar{
+  display: inline;
+}
+.logo{
+  background-image:url(img/logo.png);
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+
+.switch-wrapper {
+  position: relative;
+  margin-top: 65px;
+  margin-right: 15px;
+  margin-left:15px;
+}
+
+.switch-wrapper > div {
+  position: absolute;
+}
